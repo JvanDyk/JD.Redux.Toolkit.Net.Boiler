@@ -37,7 +37,7 @@ You can grab the latest [JD.Redux.Toolkit.NET.Boiler Nuget package](https://www.
 Use it to generate Redux folder in your Api project. Then you can remove library again, or write improvement code, thank you :)
 Have a look at the code if you want to see what is really happening.
 
-There are also some output examples in the Example folder, you will notice that it's not perfect. But provides 
+There are also some output examples in the Example folder.
 ## License
 
 MIT
