@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageId>JD.Redux.Toolkit.Net.Boiler</PackageId>
+    <Version>1.0.6</Version>
+    <Authors>JeandrevDyk</Authors>
+    <Company>HappyAppyValley</Company>
+    <Description>A package to generate Redux Toolkit store, thunks and slices for .NET REST APIs.</Description>
+    <Title>JD.Redux.Toolkit.Net.Boiler</Title>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageReadmeFile>ReadMe.md</PackageReadmeFile>
+    <PackageProjectUrl>https://github.com/JvanDyk/JD.Redux.Toolkit.Net.Boiler</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/JvanDyk/JD.Redux.Toolkit.Net.Boiler</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Redux, Redux Toolkit, .Net, Typescript, Generate</PackageTags>
+    <Copyright>Read &amp; Write on own terms</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="ReadMe.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
